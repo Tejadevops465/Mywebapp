@@ -120,5 +120,12 @@
 
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+	   <id>deployment</id>
+	   <name>internal releases</name>
+	   <url>http://localhost:8081/repository/Myweb-release/</url>
+	</repository>
+  </distributionManagement>
 
 </project>
